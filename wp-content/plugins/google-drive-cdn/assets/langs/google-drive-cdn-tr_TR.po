@@ -1,0 +1,719 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Drive as CDN WordPress Plugin\n"
+"POT-Creation-Date: 2014-02-18 14:23+0100\n"
+"PO-Revision-Date: 2015-02-25 02:09+0200\n"
+"Last-Translator: Levent KIRCA <olesore@gmail.com>\n"
+"Language-Team: www.leventkirca.com.tr <olesore@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: tr_TR\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../classes/wpb_google_drive_cdn.php:201
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ../../classes/wpb_google_drive_cdn.php:202
+msgid "More Plugins by WPBuddy"
+msgstr "WPBuddy Eklentileri"
+
+#: ../../classes/wpb_google_drive_cdn.php:220
+msgid "Google Drive CDN"
+msgstr "Google Drive CDN"
+
+#: ../../classes/wpb_google_drive_cdn.php:266
+msgid "1. Enable the Drive API"
+msgstr "1. Drive API'yi etkinleştirin"
+
+#: ../../classes/wpb_google_drive_cdn.php:269
+msgid "2. Connect with your Google Drive"
+msgstr "2. Google Drive ile bağlantı kurun"
+
+#: ../../classes/wpb_google_drive_cdn.php:273
+msgid "3. Instructions - READ THIS CAREFULLY"
+msgstr "3. Talimatlar - DİKKATLİ BİR ŞEKİLDE OKUYUN !"
+
+#: ../../classes/wpb_google_drive_cdn.php:277
+msgid "4. Settings"
+msgstr "4. Ayarlar"
+
+#: ../../classes/wpb_google_drive_cdn.php:280
+msgid "Error Logs, hints and statistics"
+msgstr "Hata Kayıtlar, ipuçları ve istatistikler"
+
+#: ../../classes/wpb_google_drive_cdn.php:283
+msgid "About"
+msgstr "Hakkında"
+
+#: ../../classes/wpb_google_drive_cdn.php:286
+msgid "Helpful links"
+msgstr "Faydalı Linkler"
+
+#: ../../classes/wpb_google_drive_cdn.php:289
+msgid "Like this plugin?"
+msgstr "Bu eklentiyi beğendiniz mi?"
+
+#: ../../classes/wpb_google_drive_cdn.php:292
+msgid "Get our free Newsletter"
+msgstr "Ücretsiz Haber alın"
+
+#: ../../classes/wpb_google_drive_cdn.php:298
+msgid "Local cache has been cleared."
+msgstr "Yerel önbellek temizlendi."
+
+#: ../../classes/wpb_google_drive_cdn.php:301
+msgid "All files created by this plugin have been trashed."
+msgstr "Bu eklenti tarafından oluşturulan tüm dosyalar silinmiştir."
+
+#: ../../classes/wpb_google_drive_cdn.php:304
+msgid "Google Drive as been disconnected"
+msgstr "Google Drive bağlantısı kesildi"
+
+#: ../../classes/wpb_google_drive_cdn.php:307
+msgid "Error log has been cleared."
+msgstr "Hata günlüğü temizlendi."
+
+#: ../../classes/wpb_google_drive_cdn.php:313
+msgid "Sync / Upload started..."
+msgstr "Sync / Yükleme başladı..."
+
+#: ../../classes/wpb_google_drive_cdn.php:316
+msgid ""
+"Sync will be stopped after the current file has been uploaded successfully."
+msgstr ""
+"Sync, geçerli dosyalar başarılı bir şekilde yüklendikten sonra durdurulacak."
+
+#: ../../classes/wpb_google_drive_cdn.php:324
+msgid "Google Drive CDN Settings"
+msgstr "Google Drive CDN Ayarları"
+
+#: ../../classes/wpb_google_drive_cdn.php:395
+msgid "Google's API returned an error!"
+msgstr "Google API de bir hata oluştu!"
+
+#: ../../classes/wpb_google_drive_cdn.php:836
+msgid "Clear CDN cache"
+msgstr "CDN önbelleğini temizle"
+
+#: ../../classes/wpb_google_drive_cdn.php:842
+msgid "Clear the Google to WordPress CDN cache"
+msgstr "Google to WordPress CDN önbelleğini temizleyin"
+
+#: ../../classes/wpb_google_drive_cdn.php:859
+msgid "CDN sync in progress! Click here to stop."
+msgstr "CDN senkronizasyonu (sync) devam ediyor! Durdurmak için tıklayın."
+
+#: ../../classes/wpb_google_drive_cdn.php:861
+msgid "CDN upload in progress! Click here to stop."
+msgstr "CDN yükleme devam ediyor! Durdurmak için tıklayın."
+
+#: ../../classes/wpb_google_drive_cdn.php:866
+msgid "Stopping CDN sync/upload ..."
+msgstr "CDN sync/yükleme durduruluyor..."
+
+#: ../../classes/wpb_google_drive_cdn.php:876
+msgid ""
+"The Google Drive CDN plugin currently syncs or uploads your items to your "
+"Google Drive storage."
+msgstr ""
+"Google Drive CDN eklentisi şu anda senkronize oluyor ya da Google Drive "
+"depolama alanına öğeleri yüklüyor."
+
+#: ../../classes/wpb_google_drive_cdn.php:1435
+msgid "Once a week"
+msgstr "Haftada bir kez"
+
+#: ../../classes/wpb_google_drive_cdn.php:1436
+msgid "Every 2th week"
+msgstr "Her 2 haftada bir"
+
+#: ../../classes/wpb_google_drive_cdn.php:1437
+msgid "Every 3rd week"
+msgstr "Her 3 haftada bir"
+
+#: ../../classes/wpb_google_drive_cdn.php:1438
+msgid "Once a month"
+msgstr "Ayda bir kez"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:47
+msgid ""
+"First, you need to enable the Drive API for the plugin. You can do this in "
+"your app's API project in the Google Cloud Console."
+msgstr ""
+"Öncelikle, sizin eklenti için Drive API'yi etkinleştirmeniz gerekiyor. "
+"Google Cloud Konsolunda uygulamalarınızın API projesini yapabilirsiniz."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:48
+#, php-format
+msgid ""
+"<strong>Please note</strong> that Google always tends to change things "
+"quickly. They have changed the way to register apps three times in the year "
+"2013. So it can be that the little \"How to\" below is outdated when you "
+"have bought the plugin. In this case, please visit the FAQ page of the "
+"plugin to get the latest version of the How-To: %s"
+msgstr ""
+"Google her zaman hızlı bir şekilde bazı şeyleri değiştirmek eğiliminde "
+"olduğunu <strong>unutmayınız.</strong> Google 2013 yılında 3 kez uygulama "
+"kayıt yolunu değiştirdi. Bu yüzden eklentiyi sayın aldığınızda \"Nasıl Yani"
+"\" diyebilirsiniz. Bu durumda lütfen FAQ - SSS (Sıkça Sorulan Sorular) "
+"sayfamızı ziyaret ediniz: %s"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:48
+msgid "Google Drive as CDN FAQ page"
+msgstr "CDN FAQ (SSS) sayfası olarak Google Drive"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:51
+#, php-format
+msgid ""
+"You need a Google account. You do not have a Google account? Click here to "
+"create one: %s"
+msgstr ""
+"Bir Google hesabınız olmalıdır. Bir Google hesabınız yok mu? Bir tane "
+"oluşturmak için buraya tıklayın: %s"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:52
+#, php-format
+msgid ""
+"Create an API project in the Google Cloud Console (former Google API "
+"Console) by following this link: %s"
+msgstr ""
+"Bu bağlantıyı : %s izleyerek Google Cloud Konsolunda (eski Google API "
+"Konsolu) bir API projesi oluşturun:"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:53
+msgid ""
+"Click the red \"Create Project\" button and type in a name (ex. \"WordPress "
+"to Google Drive\") and a project ID (like \"wp-to-gd\" - should be unique)"
+msgstr ""
+"Açılan sayfada \"Create Project\" butonuna tıklayın ve bir proje ismi yazın "
+"(örn; \"WordPress to Google Drive\" ) ve bir proje ID (\"wp-to-gd\" gibi - "
+"benzersiz olmalıdır)"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:54
+msgid ""
+"If done click \"APIs & auth\" -> \"APIs\" and activate the \"Drive API\" and "
+"\"Drive SDK\" (set the switch to ON)."
+msgstr ""
+"Daha sonra \"APIs & auth\" -> \"APIs\" tıklayın ve \"Drive API\" ve \"Drive "
+"SDK\" aktif olduğundan emin olun (Aktif değilse botunları ON konumuna "
+"getirin)."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:55
+msgid "Then click the \"Consent screen\" link in the menu."
+msgstr "Daha sonra menüdeki  \"Consent screen\" e tıklayın."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:56
+msgid "Type-in a product name (like \"WordPress to GoogleDrive\")."
+msgstr "Bir proje adı yazınız (\"WordPress to GoogleDrive\" gibi...)."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:57
+msgid "Choose an E-Mail Address and save your settings."
+msgstr "Bir e-posta adresi seçin ve ayarlarınızı kaydedin."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:58
+msgid "Then click the \"APIs & auth\" -> \"Credentials\" link."
+msgstr "Daha sonra \"APIs & auth\" -> \"Credentials\" linklerine tıklayın."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:59
+msgid "Click the red button which says \"Create New Client ID\"."
+msgstr "\"Create New Client ID\" yazan yerdeki butona tıklayın."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:60
+msgid "Choose \"Web application\"."
+msgstr " \"Web application\" Seçin."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:61
+#, php-format
+msgid "Enter %s in the field \"Authorized Javascript origins\""
+msgstr " \"Authorized Javascript origins\" yazan kısma %s girin."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:62
+#, php-format
+msgid "Enter %s in the \"Authorized Redirect URI\" field"
+msgstr "\"Authorized Redirect URI\"  yazan kısma %s girin"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:63
+msgid "Then click \"Create Client ID\"."
+msgstr "Daha sonra \"Create Client ID\" tıklayın."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:64
+msgid "You should now see all the information that are required."
+msgstr "Artık size gerekli olan tüm bilgileri görebilirsiniz."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:65
+msgid ""
+"Copy&Paste the Client ID and the Client Secret in the text fields below."
+msgstr ""
+"Aşağıdaki alanda yer alan Client ID ve Client Secret kısımlarına gerekli "
+"bilgileri kopyalayıp yapıştırın."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:94
+msgid ""
+"Please note: you will be redirected to a Google's authorization page. Please "
+"press the blue button to give this application the right to upload files."
+msgstr ""
+"Lütfen dikkat: Google yetkilendirme sayfasına yönlendirileceksiniz. Açılan "
+"sayfada uygulamanın Google Drive hesabınıza yükleme yapmasına izin vermek "
+"için butona basarak yetki vermelisiniz."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:96
+msgid "Grant writing permissions to your Google Drive"
+msgstr "Sahip olduğunuz Google Drive a yazma izinleri verin"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:99
+msgid "The Google Drive API is currently not working."
+msgstr "Google Drive API şu anda çalışmıyor."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:99
+msgid ""
+"Try to (re-)authenticate by using the button \"Grant writing permissions to "
+"your Google Drive\" button."
+msgstr ""
+"\"Grant writing permissions to your Google Drive\" butonuna tıklayarak "
+"yeniden kimlik doğrulması yapmayı deneyin."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:143
+msgid "Installation manual"
+msgstr "Kurulum kılavuzu"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:146
+msgid "Frequently Asked Questions"
+msgstr "Sıkça Sorulan Sorular"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:149
+msgid "Report a bug"
+msgstr "Hata bildir"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:152
+msgid "Request a function"
+msgstr "Bir fonksiyonu talep et"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:155
+msgid "Submit a translation"
+msgstr "Bir çeviri gönder"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:158
+msgid "More cool stuff by WPBuddy"
+msgstr "WPBuddy diğer çalışmaları"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:222
+msgid "Your first name"
+msgstr "Adınız"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:224
+msgid "Your E-Mail address"
+msgstr "E-posta adresiniz"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:226
+msgid "Subscribe"
+msgstr "Abonelik"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:264
+#, php-format
+msgid ""
+"You are now ready to go! The plugin has created a folder named %1$s on your "
+"Google Drive. Click here to view all files: %2$s"
+msgstr ""
+"Artık hazır! Google Drive hesabınızda %1$s adıyla bir dosya oluşturulmuştur. "
+"Tüm dosyaları görmek için bağlantıya tıklayınız: %2$s"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:269
+msgid "The plugin works like this:"
+msgstr "Eklentinin çalışması:"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:272
+msgid ""
+"If anyone visits a page of your website, the plugin searches for files that "
+"can be uploaded to Google Drive."
+msgstr ""
+"Eğer herhangi biri web sayfanızı ziyaret ederse, eklenti Google Drive'a "
+"yüklenebilir dosyaları arar."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:273
+msgid ""
+"If the file is not yet uploaded to Google Drive the plugin will put it down "
+"into the cache-database for a later upload."
+msgstr ""
+"Eğer dosya Google Drive'a yüklenmemişse, eklenti daha sonra yüklemek için "
+"dosyayı veritabanı-önbelleğine alır."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:274
+msgid ""
+"Every hour the plugin reads all these entries from the cache-database to "
+"sync files to your Google Drive that have not yet been synced."
+msgstr ""
+"Her saat başı eklenti Google Drive hesabınız senronizasyon dosyalarını "
+"senkronize etmemişse tüm dosyaları önbellek-veritabanından okur."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:275
+msgid "Synced files can then be served directly from your Google Drive."
+msgstr ""
+"Senkronize edilmiş dosyalar daha sonra Google Drive'a doğrudan servis "
+"edilebilir."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:276
+msgid ""
+"You can manually start syncing the files that have been written to the cache-"
+"database by clicking the \"Sync local CDN\"-button."
+msgstr ""
+" \"Sync local CDN\" butonuna tıklayarak önbellek-veritabanı yazılmış "
+"dosyaları senkronizasyon yapmaya başlayabilirsiniz."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:277
+msgid ""
+"From time to time every single file gets located and uploaded to Google "
+"Drive. Because of this process the speed of your website should improve "
+"continuously."
+msgstr ""
+"Zaman zaman her bir dosya yer kaplayabilir ve bu durumda Google Drive "
+"yüklenebilir. Çünkü bu süreçte web sitenizin hızını sürekli geliştirmek "
+"gerekir."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:280
+msgid "Please note:"
+msgstr "Lütfen dikkat:"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:282
+msgid ""
+"It is recommended to use a \"caching plugin\" like WP-Super-Cache to "
+"significantly improve page load time."
+msgstr ""
+"Önemli ölçüde sayfa ön yüklemesini geliştirmek için WP-Super-Cache gibi bir "
+"\"cache eklentisi\"ni kullanılması tavsiye edilir."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:283
+msgid ""
+"You can start sync your local media library to Google Drive using the \"Sync "
+"my media library now\"-button. Depending on the size of your media library "
+"this will take some time."
+msgstr ""
+"Artık \"Sync my media library now\" butonuna tıklayarak Google Drive'a yerel "
+"medya kütüphanenizi senkron etmeye başlabilirsiniz. Bu durumun ne kadar "
+"zaman alacağı sizin medya kütüphanenizin boyutuna bağlıdır."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:284
+msgid ""
+"Google Drive delivers all files via secure SSL. If you are not using SSL on "
+"your domain you should remove CSS files from the file extensions field "
+"below. This is because it can lead to the \"Mixed Content Blocker\" problem "
+"some browsers have when your CSS file tries to import Non-SSL files via the "
+"@import function. The plugin will automatically stop referring to CSS files "
+"on Google Drive if it detects that your domain does not support SSL."
+msgstr ""
+"Google Drive güvenli SSL üzerinden tüm dosyaları sunuyor. Eğer domaninizde "
+"SSL kullanmıyorsanız aşağıdaki dosya uzantıları alanından CSS doslarını "
+"kaldırabilirsiniz. Çünkü, sizin CSS dosyalarınız @import fonksiyonu "
+"tarafından SSL olmayan (Non-SSL) dosyaları almaya çalıştığında bazı "
+"tarayıcılar \"Mixed Content Blocker\" hatası verebiliyor. Eklenti, eğer "
+"domaininizin SSL desteklemediğini algılarsa otomatik olarak Google Drive "
+"üzerinde CSS dosyalarına atıfda bulunmayı bırakacaktır."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:285
+msgid ""
+"As per default this plugin syncs new or updated files every hour. This can "
+"cause problems if you're using a WordPress theme which change files on the "
+"file system. Try to manually sync files after changing any theme-related "
+"things."
+msgstr ""
+"Eklenti varsayılan olarak her saat başı yeni ve yüklenmiş doslayarı "
+"senkronize eder. Eğer Wordpress tema kullanarak dosya sistemi üzerinde "
+"değişiklik yaparsanız bu probleme neden olabilir. Bu durumda dosya ismini "
+"düzelterek manuel olarak senknorize deyin."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:383
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:385
+msgid "Number of total file entries in the cache database."
+msgstr "Önbellek veritabanında toplam dosya girişleri sayısı."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:386
+msgid "Number of synced files."
+msgstr "Senkronize dosyaların sayısı."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:387
+msgid "Number of files that have not yet been synced or can't be synced."
+msgstr "Henüz senkronize edilmemiş veya senkronize edilemez dosyaların sayısı."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:388
+msgid "Date of the next automatic sync/update process."
+msgstr "Bir sonraki otomatik seknronizasyon / güncelleme işleminin tarihi."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:396
+msgid "Errors & Hints"
+msgstr "Hatalar & İpuçları"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:404
+msgid "Delete Logs"
+msgstr "Günlükleri Sil"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:97
+msgid "Client ID"
+msgstr "Client ID"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:108
+msgid "Client secret"
+msgstr "Client secret"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:119
+msgid "Purchase Code"
+msgstr "Purchase Code"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:130
+msgid "Change temp dir"
+msgstr "Change temp dir"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:141
+msgid "Temp. dir"
+msgstr "Temp. dir"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:152
+msgid "IO Method"
+msgstr "IO Metodu"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:174
+msgid "Only replace every"
+msgstr "Sadece her "
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:185
+msgid "Cache time"
+msgstr "Önbellek süresi"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:196
+msgid "Sync / Upload interval"
+msgstr "Senkronizasyon / Yükleme aralığı"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:207
+msgid "Never sync / Upload new files only"
+msgstr "Senkronizasyon yapma / sadece yeni dosyaları yükle"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:218
+msgid "File extensions"
+msgstr "Dosya uzantıları"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:229
+msgid "Excluded files"
+msgstr "Hariç tutulan dosyalar"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:240
+msgid "Actions"
+msgstr "Eylemler"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:377
+msgid "file"
+msgstr "dosyayı değiştirin"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:378
+msgid ""
+"Increasing this number can improve load time because your own server can "
+"deliver files, too. Not every single file should be delivered from your "
+"Google Drive. It is better to spread them across multiple servers."
+msgstr ""
+"Bu sayının artırılması yükleme süresini artırabilir çünkü kendi sunucunda "
+"dosya gönderebilir. Her dosyayı Google Drive'dan teslim almak doğru "
+"değildir. Birden çok sunucu arasında bunları yaymak daha iyi olacaktır."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:396
+msgid ""
+"hours (It's recommend to leave this empty because static files do not change "
+"very often.)"
+msgstr ""
+"saat (burayı boş bırakmanızı öneririz çünkü istatistik dosyalarını çok sık "
+"değiştirmez)"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:397
+msgid ""
+"Please specify how long the URLs should be cached. Set to 0 to deactivate. "
+"Leave it blank to store the files for an indefinite period."
+msgstr ""
+"URL'lerin önbellekte nasıl olması gerektiğini lütfen belirtiniz. Devre dışı "
+"bırakmak için 0 olarak ayarlayın. Dosyarı belirsiz bir süreliğine "
+"depolayacaksanız boş bırakın. "
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:421
+msgid ""
+"How often the files should be synced. If you have a very large media library "
+"you should consider doing this not too often because it will need a lot of "
+"resources on your webserver."
+msgstr ""
+"Dosyalar ne sıklıkla senkronize edilmelidir? Eğer çok büyük bir medya "
+"kütüphaneniz varsa bunu çok sık yapmamayı düşünmelisiniz çünkü web sitenizin "
+"barındığı sunucuda büyük bir alana ihtiyacınız olacak."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:440
+msgid ""
+"File extensions to search for (comma separated). Note that already uploaded "
+"files remain in Google Drive if a file extension is removed. Clear your "
+"local CDN cache after updating this field."
+msgstr ""
+"Arama yapmak için dosya uzantıları (virgülle ayırınız.) Eğer bir dosya "
+"uzantısı kaldırılırsa zaten önceden yüklenmiş olacağı için kaldırdığınız "
+"dosya uzantısına sahip dosyalar Google Drive hesabınızda olacaktır. Bu alanı "
+"güncelledikten sonra CDN önbelleğini temizleyin."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:441
+msgid ""
+"The plugin found out that you are currently not using SSL. To prevent "
+"\"Mixed Content Blocker\" warnings some browsers produce, no CSS files will "
+"be used from your Google Drive."
+msgstr ""
+"Eklenti şu anda sizin SSL kullanmadığınızı öğrendi. Bazı tarayıcıların "
+"\"Mixed Content Blocker\" uyarısını engellemek için hiç bir CSS dosyası "
+"Google Drive'dan kullanılmayacaktır."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:461
+msgid "Add full URLs of files you want to exclude. One per line."
+msgstr ""
+"Hariç tutmak (dışlamak) istediğiniz dosyaların tam URL'lerini ekleyin. Her "
+"satıra bir tane."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:480
+msgid ""
+"Activate this if you're getting a \"open_basedir restriction in effect\" "
+"error."
+msgstr ""
+"Eğer \"open_basedir restriction in effect\" hatası alıyorsanız bunu "
+"aktifleştirin."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:480
+#: ../../classes/wpb_google_drive_cdn_settings.php:501
+msgid "Read more about it here. (Question #15)"
+msgstr "Bu konu hakkında daha fazla bilgi için tıklayın. (#15. soruyu okuyun)"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:501
+msgid ""
+"This is the path to a writable folder. Only set when \"Change temp dir\" is "
+"activated."
+msgstr ""
+"Bu yazılabilir dosya yoludur. Sadece \"Change temp dir\" aktif edildiğinde "
+"kullanılır."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:521
+msgid "Curl"
+msgstr ""
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:522
+msgid "HTTP Stream"
+msgstr "HTTP Stream"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:525
+msgid ""
+"If you have problems to connect to the Google Drive API you can change the "
+"IO Method here. If neither Curl nor HTTP Stream works please ask your "
+"hosting provider to activate at least the PHP curl functions."
+msgstr ""
+"Eğer Google Drive API bağlanma problemi yaşıyorsanız buradaki IO Metodunu "
+"değiştirebilirsiniz. If neither Curl nor HTTP Stream works please ask your "
+"hosting provider to activate at least the PHP curl functions."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:540
+#, php-format
+msgid ""
+"In order to get automatic updates you should copy and paste your purchase "
+"code here. If you do not know where to get your purchase code, please click "
+"here: %s"
+msgstr ""
+"Otomatik güncellemeleri almak için buraya satın alma kodunuzu eklemeniz "
+"gerekmektedir. Eğer satın alma kodunuzu nereden bulacağınızı bilmiyorsanız, "
+"lütfen buraya tıklayınız: %s"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:540
+msgid "Where to find your purchase code"
+msgstr "Satın alma kodu nerede"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:563
+msgid "Disconnect"
+msgstr "Bağlantıyı kes"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:564
+msgid ""
+"Disconnects your Website from Google Drive. It does not delete any files."
+msgstr ""
+"Siteniz ile Google Drive arasındaki bağlantıyı keser. Herhangi bir dosya "
+"silinmez."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:574
+msgid "Clear local CDN cache"
+msgstr "CDN önbelleğini temizle"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:575
+msgid ""
+"Clears the local cache (which means that all links from local to Google "
+"Drive files will be lost and the plugin has to fetch it again)."
+msgstr ""
+"Yerel önbelleği temizler (Google Drive dosyaları yerel tüm bağlantılar "
+"kaybolacaktır ve bu eklentinin tekrar önbelleğe almak zorunda olduğunu "
+"anlamına gelmektedir)."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:585
+msgid "Trash CDN files"
+msgstr "Çöp CDN dosyaları"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:586
+msgid ""
+"Moves all cached files to the Google Drive trash. It does not delete any "
+"files. You have to delete these files yourself."
+msgstr ""
+"Google Drive çöp kutusuna tüm önbelleğe alınmış dosyaları taşır. Herhangi "
+"bir dosya silmez. Dosyaları kendiniz silmeniz gerekir."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:596
+msgid "Sync local CDN"
+msgstr "Sync yerel CDN"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:596
+msgid "Upload new files"
+msgstr "Yeni dosya yükleyin"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:597
+msgid ""
+"Syncs the local CDN Cache database with your Google Drive folder. Existing "
+"files will be updated (if necessary). Files that are not yet on Google Drive "
+"will be uploaded."
+msgstr ""
+"Google Drive klasörü ile yerel CDN Önbellek veritabanını senkronize eder. "
+"Mevcut dosyaları (gerekirse) güncellenecektir. Dosyalar Google Drive "
+"üzerinde henüz bitmedi, yüklenmiş olacaklar."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:607
+msgid "Sync my media library now"
+msgstr "Medya kütüphanemi senkronize et"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:610
+msgid ""
+"This syncs your media library. Leave this page if you want to stop syncing."
+msgstr ""
+"Bu medya kütüphanesi eşitler. Eğer senkronizasyonu durdurmak istiyorsanız bu "
+"sayfadan ayrılın (kapatın)."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:620
+msgid "Stop current sync process"
+msgstr "Mevcut senkronizasyon işlemini durdur"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:637
+msgid ""
+"If this is checked, the plugin will never sync your media library. It will "
+"only upload new files that haven't been uploaded yet. Great for very large "
+"websites."
+msgstr ""
+"Bu seçilirse, eklenti asla medya kütüphanesini senkronize etmeyecek. Sadece "
+"henüz yüklenmemiş yeni dosyaları yükleyecek. Çok büyük web siteleri için "
+"harika."
+
+#: ../../classes/wpb_plugin.php:730
+#, php-format
+msgid ""
+"You should consider entering you purchase code for the %s plugin because you "
+"get every update immediately delivered to your WordPress installation."
+msgstr ""
+"Eklenti %s için satın aldığınız kodu girmeniz halinde eklenti "
+"güncellemelerini anında alabilirsiniz. Aksi taktirde güncellemeleri "
+"alamazsınız."

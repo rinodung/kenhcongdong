@@ -13,7 +13,9 @@
  *
  * @package WordPress
  */
-
+ define('WP_HOME','http://live.share4life.tk/');
+define('WP_SITEURL','http://live.share4life.tk/');
+define('FS_METHOD','direct');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'blog');
