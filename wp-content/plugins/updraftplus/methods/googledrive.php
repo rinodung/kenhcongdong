@@ -329,7 +329,7 @@ class UpdraftPlus_BackupModule_googledrive {
 				if (is_numeric($quota_total) && is_numeric($quota_used)) {
 					$available_quota = $quota_total - $quota_used;
 					$used_perc = round($quota_used*100/$quota_total, 1);
-					$message .= sprintf(__('Your %s quota usage: %s %% used, %s available','updraftplus'), 'Google Drive', $used_perc, round($available_quota/1048576, 1).' Mb');
+					$message .= sprintf(__('Your %s quota usage: %s %% used, %s available','updraftplus'), 'Google Drive', $used_perc, round($available_quota/1048576, 1).' MB');
 				}
 			}
 		} catch (Exception $e) {
@@ -391,7 +391,7 @@ class UpdraftPlus_BackupModule_googledrive {
 				$quota_total = max($about->getQuotaBytesTotal(), 1);
 				$quota_used = $about->getQuotaBytesUsed();
 				$available_quota = $quota_total - $quota_used;
-				$message = "Google Drive quota usage: used=".round($quota_used/1048576,1)." Mb, total=".round($quota_total/1048576,1)." Mb, available=".round($available_quota/1048576,1)." Mb";
+				$message = "Google Drive quota usage: used=".round($quota_used/1048576,1)." MB, total=".round($quota_total/1048576,1)." MB, available=".round($available_quota/1048576,1)." MB";
 				$updraftplus->log($message);
 			} catch (Exception $e) {
 				$updraftplus->log("Google Drive quota usage: failed to obtain this information: ".$e->getMessage());
@@ -412,9 +412,9 @@ class UpdraftPlus_BackupModule_googledrive {
 			}
 
 			if (!$already_failed && $filesize > 10737418240) {
-				# 10Gb
-				$updraftplus->log("File upload expected to fail: file ($file_name) size is $filesize b (".round($filesize/1073741824, 4)." Gb), whereas Google Drive's limit is 10Gb (1073741824 bytes)");
-				$updraftplus->log(sprintf(__("Upload expected to fail: the %s limit for any single file is %s, whereas this file is %s Gb (%d bytes)",'updraftplus'),__('Google Drive', 'updraftplus'), '10Gb (1073741824)', round($filesize/1073741824, 4), $filesize), 'warning');
+				# 10GB
+				$updraftplus->log("File upload expected to fail: file ($file_name) size is $filesize b (".round($filesize/1073741824, 4)." GB), whereas Google Drive's limit is 10GB (1073741824 bytes)");
+				$updraftplus->log(sprintf(__("Upload expected to fail: the %s limit for any single file is %s, whereas this file is %s GB (%d bytes)",'updraftplus'),__('Google Drive', 'updraftplus'), '10GB (1073741824)', round($filesize/1073741824, 4), $filesize), 'warning');
 			} 
 
 			try {
@@ -479,6 +479,10 @@ class UpdraftPlus_BackupModule_googledrive {
 */
 		if ((!class_exists('Google_Config') || !class_exists('Google_Client') || !class_exists('Google_Service_Drive') || !class_exists('Google_Http_Request')) && !function_exists('google_api_php_client_autoload_updraftplus')) {
 			require_once(UPDRAFTPLUS_DIR.'/includes/Google/autoload.php'); 
+		}
+
+		if (!class_exists('UpdraftPlus_Google_Http_MediaFileUpload')) {
+			require_once(UPDRAFTPLUS_DIR.'/includes/google-extensions.php'); 
 		}
 
 		$config = new Google_Config();
@@ -711,7 +715,8 @@ class UpdraftPlus_BackupModule_googledrive {
 			}
 		}
 
-		$media = new Google_Http_MediaFileUpload(
+		// UpdraftPlus_Google_Http_MediaFileUpload extends Google_Http_MediaFileUpload, with a few extra methods to change private properties to public ones
+		$media = new UpdraftPlus_Google_Http_MediaFileUpload(
 			$client,
 			$request,
 			(('.zip' == substr($basename, -4, 4)) ? 'application/zip' : 'application/octet-stream'),
@@ -722,8 +727,10 @@ class UpdraftPlus_BackupModule_googledrive {
 		$media->setFileSize($local_size);
 
 		if (!empty($possible_location)) {
-			$media->resumeUri = $possible_location[0];
-			$media->progress = $possible_location[1];
+// 			$media->resumeUri = $possible_location[0];
+// 			$media->progress = $possible_location[1];
+			$media->updraftplus_setResumeUri($possible_location[0]);
+			$media->updraftplus_setProgress($possible_location[1]);
 			$size = $possible_location[1];
 		}
 		if ($size >= $local_size) return true;
@@ -748,7 +755,7 @@ class UpdraftPlus_BackupModule_googledrive {
 				# Error handling??
 				$pointer += strlen($chunk);
 				$status = $media->nextChunk($chunk);
-				$updraftplus->jobdata_set($transkey, array($media->resumeUri, $media->getProgress()));
+				$updraftplus->jobdata_set($transkey, array($media->updraftplus_getResumeUri(), $media->getProgress()));
 				$updraftplus->record_uploaded_chunk(round(100*$pointer/$local_size, 1), $media->getProgress(), $file);
 			}
 			
@@ -826,7 +833,7 @@ class UpdraftPlus_BackupModule_googledrive {
 			return true;
 		}
 
-		# Chunk in units of 2Mb
+		# Chunk in units of 2MB
 		$chunk_size = 2097152;
 
 		try {
@@ -951,7 +958,7 @@ class UpdraftPlus_BackupModule_googledrive {
 				</p>
 				<p>
 
-				<a href="<?php echo UpdraftPlus_Options::admin_page_url();?>?action=updraftmethod-googledrive-auth&page=updraftplus&updraftplus_googleauth=doit"><?php print __('<strong>After</strong> you have saved your settings (by clicking \'Save Changes\' below), then come back here once and click this link to complete authentication with Google.','updraftplus');?></a>
+				<a class="updraft_authlink" href="<?php echo UpdraftPlus_Options::admin_page_url();?>?action=updraftmethod-googledrive-auth&page=updraftplus&updraftplus_googleauth=doit"><?php print __('<strong>After</strong> you have saved your settings (by clicking \'Save Changes\' below), then come back here once and click this link to complete authentication with Google.','updraftplus');?></a>
 				</p>
 				</td>
 			</tr>

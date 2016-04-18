@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Crayon Syntax Highlighter
-Plugin URI: https://github.com/aramkocharyan/crayon-syntax-highlighter
+Plugin URI: https://github.com/aramk/crayon-syntax-highlighter
 Description: Supports multiple languages, themes, highlighting from a URL, local file or post text.
-Version: 2.6.6
+Version: 2.8.3
 Author: Aram Kocharyan
 Author URI: http://aramk.com/
 Text Domain: crayon-syntax-highlighter
@@ -33,11 +33,12 @@ if (CRAYON_THEME_EDITOR) {
 }
 require_once('crayon_settings_wp.class.php');
 
-if (defined('ABSPATH')) {
-    // Used to get plugin version info
-    require_once(ABSPATH . 'wp-admin/includes/plugin.php');
-    crayon_set_info(get_plugin_data(__FILE__));
-}
+crayon_set_info(array(
+	'Version' => '_2.7.2_beta',
+	'Date' => '25th April, 2015',
+	'AuthorName' => 'Aram Kocharyan',
+	'PluginURI' => 'https://github.com/aramk/crayon-syntax-highlighter',
+));
 
 /* The plugin class that manages all other classes and integrates Crayon with WP */
 
@@ -199,6 +200,7 @@ class CrayonWP {
             $the_captures = $captures['capture'];
         }
         $the_content = $captures['content'];
+        $the_content = strip_tags($the_content);
         foreach ($the_captures as $id => $capture) {
             $atts = $capture['atts'];
             $no_enqueue = array(
@@ -211,6 +213,7 @@ class CrayonWP {
             $the_content = CrayonUtil::preg_replace_escape_back(self::regex_with_id($id), $crayon_formatted, $the_content, 1, $count);
         }
 
+        header('Content-Type: text/html');
         return $the_content;
     }
 
@@ -251,6 +254,12 @@ class CrayonWP {
         // Will contain captured crayons and altered $wp_content
         $capture = array('capture' => array(), 'content' => $wp_content, 'has_captured' => FALSE);
 
+        // Do not apply Crayon for posts older than a certain date.
+        $disable_date = trim(CrayonGlobalSettings::val(CrayonSettings::DISABLE_DATE));
+        if ($disable_date && get_post_time('U', true, $wp_id) <= strtotime($disable_date)) {
+            return $capture;
+        }
+
         // Flags for which Crayons to convert
         $in_flag = self::in_flag($flags);
 
@@ -288,7 +297,6 @@ class CrayonWP {
         if ((CrayonGlobalSettings::val(CrayonSettings::PLAIN_TAG) || $skip_setting_check) && $in_flag[CrayonSettings::PLAIN_TAG]) {
             $wp_content = preg_replace_callback('#(?<!\$)\[\s*plain\s*\](.*?)\[\s*/\s*plain\s*\]#msi', 'CrayonFormatter::plain_code', $wp_content);
         }
-
 
         // Add IDs to the Crayons
         CrayonLog::debug('capture adding id ' . $wp_id . ' , now has len ' . strlen($wp_content));
@@ -345,6 +353,11 @@ class CrayonWP {
                     for ($j = 0; $j < count($att_matches[1]); $j++) {
                         $atts_array[trim(strtolower($att_matches[1][$j]))] = trim($att_matches[3][$j]);
                     }
+                }
+
+                if (isset($atts_array[CrayonSettings::IGNORE]) && $atts_array[CrayonSettings::IGNORE]) {
+                    // TODO(aramk) Revert to the original content.
+                    continue;
                 }
 
                 // Capture theme
@@ -532,9 +545,10 @@ class CrayonWP {
 
             CrayonLog::debug('enqueue');
             global $CRAYON_VERSION;
+            CrayonSettingsWP::load_settings(TRUE);
             if (CRAYON_MINIFY) {
                 wp_enqueue_style('crayon', plugins_url(CRAYON_STYLE_MIN, __FILE__), array(), $CRAYON_VERSION);
-                wp_enqueue_script('crayon_js', plugins_url(CRAYON_JS_MIN, __FILE__), array('jquery'), $CRAYON_VERSION);
+                wp_enqueue_script('crayon_js', plugins_url(CRAYON_JS_MIN, __FILE__), array('jquery'), $CRAYON_VERSION, CrayonGlobalSettings::val(CrayonSettings::DELAY_LOAD_JS));
             } else {
                 wp_enqueue_style('crayon_style', plugins_url(CRAYON_STYLE, __FILE__), array(), $CRAYON_VERSION);
                 wp_enqueue_style('crayon_global_style', plugins_url(CRAYON_STYLE_GLOBAL, __FILE__), array(), $CRAYON_VERSION);
@@ -755,7 +769,7 @@ class CrayonWP {
         return $the_excerpt . ' ';
     }
 
-    // Refactored, used to capture pre and span tags which have settings in class attribute
+    // Used to capture pre and span tags which have settings in class attribute
     public static function class_tag($matches) {
         // If class exists, atts is not captured
         $pre_class = $matches[1];
@@ -775,6 +789,10 @@ class CrayonWP {
         }
 
         if (!empty($class)) {
+            if (preg_match('#\bignore\s*:\s*true#', $class)) {
+                // Prevent any changes if ignoring the tag.
+                return $matches[0];
+            }
             // crayon-inline is turned into inline="1"
             $class = preg_replace('#' . self::REGEX_INLINE_CLASS . '#mi', 'inline="1"', $class);
             // "setting[:_]value" style settings in the class attribute
@@ -786,7 +804,7 @@ class CrayonWP {
             $post_class = preg_replace('#\bdata-url\s*=#mi', 'url=', $post_class);
         }
         if (!empty($pre_class)) {
-            $pre_class = preg_replace('#\bdata-url\s*=#mi', 'url=', $post_class);
+            $pre_class = preg_replace('#\bdata-url\s*=#mi', 'url=', $pre_class);
         }
 
         if (!empty($class)) {
@@ -819,7 +837,7 @@ class CrayonWP {
      * Check if the $ notation has been used to ignore [crayon] tags within posts and remove all matches
      * Can also remove if used without $ as a regular crayon
      *
-     * @depreciated
+     * @deprecated
      */
     public static function crayon_remove_ignore($the_content, $ignore_flag = '$') {
         if ($ignore_flag == FALSE) {
@@ -964,7 +982,7 @@ class CrayonWP {
         add_action('wp_ajax_nopriv_crayon-tag-editor', 'CrayonTagEditorWP::content');
         add_action('wp_ajax_crayon-highlight', 'CrayonWP::ajax_highlight');
         add_action('wp_ajax_nopriv_crayon-highlight', 'CrayonWP::ajax_highlight');
-        if (is_admin()) {
+        if (current_user_can('manage_options')) {
             add_action('wp_ajax_crayon-ajax', 'CrayonWP::ajax');
             add_action('wp_ajax_crayon-theme-editor', 'CrayonThemeEditorWP::content');
             add_action('wp_ajax_crayon-theme-editor-save', 'CrayonThemeEditorWP::save');
@@ -1139,15 +1157,6 @@ class CrayonWP {
 
     public static function basename() {
         return plugin_basename(__FILE__);
-    }
-
-    // This should never be called through AJAX, only server side, since WP will not be loaded
-    public static function wp_load_path() {
-        if (defined('ABSPATH')) {
-            return ABSPATH . 'wp-load.php';
-        } else {
-            CrayonLog::syslog('wp_load_path could not find value for ABSPATH');
-        }
     }
 
     public static function pre_excerpt($e) {

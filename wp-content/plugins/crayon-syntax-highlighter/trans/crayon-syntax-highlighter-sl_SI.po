@@ -1064,7 +1064,7 @@ msgstr "Prikaži &lt;code&gt; kot"
 #: crayon_settings_wp.class.php:1118
 #, php-format
 msgid ""
-"Using this markup for Mini Tags and Inline tags is now %sdepreciated%s! Use "
+"Using this markup for Mini Tags and Inline tags is now %sdeprecated%s! Use "
 "the %sTag Editor%s instead and convert legacy tags."
 msgstr ""
 "Uporaba tega označevanja za majhne značke in značke v vrstici je sedaj "
@@ -1083,18 +1083,6 @@ msgid ""
 msgstr ""
 "Prikaži urejevalnik značk v kateremkoli primerku TinyMCE v ospredju (kot je "
 "bbPress)"
-
-# @ crayon-syntax-highlighter
-#. translators: plugin header field 'PluginURI'
-#: crayon_wp.class.php:0
-msgid "https://github.com/aramkocharyan/crayon-syntax-highlighter"
-msgstr "https://github.com/aramkocharyan/crayon-syntax-highlighter"
-
-# @ crayon-syntax-highlighter
-#. translators: plugin header field 'Version'
-#: crayon_wp.class.php:0
-msgid "2.4.0"
-msgstr "2.4.0"
 
 # @ crayon-syntax-highlighter
 #: util/tag-editor/crayon_tag_editor_wp.class.php:180

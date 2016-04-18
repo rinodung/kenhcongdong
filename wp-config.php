@@ -13,8 +13,8 @@
  *
  * @package WordPress
  */
- define('WP_HOME','http://blog.freehub.tk/');
-define('WP_SITEURL','http://blog.freehub.tk/');
+ define('WP_HOME','http://blog.rinohub.tk/');
+define('WP_SITEURL','http://blog.rinohub.tk/');
 define('FS_METHOD','direct');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */

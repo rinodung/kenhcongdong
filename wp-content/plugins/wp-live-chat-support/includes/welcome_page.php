@@ -3,9 +3,10 @@
     <h1 style="font-weight: 300; font-size: 50px; line-height: 50px;">
         <?php _e("Welcome to ",'wplivechat'); ?> 
         <strong style='color: #ec822c;'>WP Live Chat Support</strong> 
-        <small><?php _e('Version 4', 'wplivechat'); ?></small>
+        <small><?php _e('Version 6', 'wplivechat'); ?></small>
     </h1>
-    <div class="about-text" style="margin: 0;"><?php _e('Provide Instant Live Chat Support!', 'wplivechat'); ?></div>
+    <div style="margin: 0;"><h2><?php _e('The most popular live chat plugin!', 'wplivechat'); ?></h2></div>
+    <hr />
 
     <h2 style="font-size: 25px;"><?php _e('How did you find us?', 'wplivechat'); ?></h2>
     <form method="post" name="wplc_find_us_form" style="font-size: 16px;">

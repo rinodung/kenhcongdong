@@ -3,8 +3,8 @@ Contributors: bluemedicinelabs, internetmedicineman, dr_scythe, trishacupra
 Donate link: http://www.BlueMedicineLabs.com/
 Tags: images, gallery, photobloggers, attachments, photo, links, external, photographers, Flickr, save, download
 Requires at least: 2.7
-Tested up to: 4.3.1
-Stable tag: 1.1.6
+Tested up to: 4.4
+Stable tag: 1.1.7
 
 This plugin turns images that are hosted elsewhere into images that are now in your Media Library, and the code on your page is automatically updated.
 
@@ -94,6 +94,9 @@ Yes, there are numerous ways that this plugin could be used unethically, but the
 1. This screenshot is the admin screen you will find under Settings.
 
 == Changelog ==
+
+= 1.1.7 =
+* Improve and verify compatibility up to WP 4.4
 
 = 1.1.5 =
 * Fixed several general bugs, and introduced dr_scythe to the plugin for development.

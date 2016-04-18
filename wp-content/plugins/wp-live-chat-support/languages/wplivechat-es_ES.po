@@ -2,22 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wplivechat\n"
 "POT-Creation-Date: 2015-03-16 07:56+0200\n"
-"PO-Revision-Date: 2015-03-20 18:22-0300\n"
+"PO-Revision-Date: 2016-01-18 14:58+0100\n"
 "Last-Translator: Caribdis Web Design <caribdisweb@gmail.com>\n"
 "Language-Team: Caribdis Web Design <caribdisweb@gmail.com>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.6\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress\\wp-content\\plugins\\wp-"
-"live-chat-support\n"
-"X-Poedit-SearchPath-1: C:\\wamp\\www\\wordpress\\wp-content\\plugins\\wp-"
-"live-chat-support-pro\n"
+"X-Poedit-SearchPath-0: C:/wamp/www/wordpress/wp-content/plugins/wp-live-chat-"
+"support\n"
+"X-Poedit-SearchPath-1: C:/wamp/www/wordpress/wp-content/plugins/wp-live-chat-"
+"support-pro\n"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/ajax-pro.php:264
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/ajax.php:228
@@ -64,7 +64,7 @@ msgstr "Whois para"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/functions.php:241
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:982
 msgid "Site Info"
-msgstr "Información del sitio"
+msgstr "Información de la pagina web"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/functions-pro.php:89
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/functions-pro.php:259
@@ -115,7 +115,7 @@ msgstr "Chats activos"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/functions-pro.php:213
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/functions.php:212
 msgid "Accept Chat"
-msgstr "Aceptar chat"
+msgstr "Aceptar el chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/functions-pro.php:215
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/functions.php:214
@@ -195,7 +195,7 @@ msgstr "Alerta: alguien quiere chatear con usted en "
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/functions-pro.php:338
 msgid "Someone wants to chat with you on your website"
-msgstr "Alguien quiere chatear con usted en su sitio"
+msgstr "Alguien quiere chatear con usted desde su pagina web"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/functions-pro.php:338
 msgid "Log in"
@@ -220,7 +220,8 @@ msgstr ""
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/functions-pro.php:548
 msgid "Please contact the administrator of this website to change this."
-msgstr "Por favor, contacte al administrador del sitio para cambiar esto."
+msgstr ""
+"Por favor, contacte con el administrador de la pagina web para cambiar esto."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/functions-pro.php:634
 msgid "Chat Agent Online"
@@ -329,7 +330,7 @@ msgstr "Ocultar chat"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:61
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:57
 msgid "Hides chat for 24hrs when user clicks X"
-msgstr "Oculta el chat por 24 hs cuando el usuario hace clic en la X"
+msgstr "Ocultar el chat durnte 24 hs cuando el usuario hace clic en la X"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:69
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:73
@@ -341,7 +342,7 @@ msgstr "Pedir Nombre y Correo electrónico"
 msgid ""
 "Users will have to enter their Name and Email Address when starting a chat"
 msgstr ""
-"Los usuarios tendrán que ingresar su nombre y dirección de correo "
+"Los usuarios tendrán que informar su nombre y dirección de correo "
 "electrónico para iniciar el chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:78
@@ -353,13 +354,13 @@ msgstr "Texto de reemplazo para los campos anteriores"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:83
 msgid "This is the text that will show in place of the Name And Email fields"
 msgstr ""
-"Este texto se mostrará en lugar de los campos Nombre y Dirección de correo "
+"Este texto se mostrará en  los campos Nombre y Dirección de correo "
 "electrónico"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:87
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:91
 msgid "Use Logged In User Details"
-msgstr "Usar detalles de usuario conectado"
+msgstr "Utilizar los detalles del usuario conectado"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:88
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:92
@@ -406,7 +407,7 @@ msgid ""
 "(Use comma-separated Page ID's)"
 msgstr ""
 "Mostrar la ventana del chat en las siguientes páginas. Deje en blanco para "
-"mostrarla en todas. (Use IDs de página separadas por comas)"
+"mostrarla en todas. (Separar los IDs de pagina con comas)"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:119
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:129
@@ -429,7 +430,7 @@ msgid ""
 "all. (Use comma-separated Page ID's)"
 msgstr ""
 "No mostrar la ventana del chat en las siguientes páginas. Deje en blanco "
-"para mostrarla en todas. (Use IDs de página separadas por comas)"
+"para mostrarla en todas.  (Separar los IDs de pagina con comas)"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:133
 msgid "Allow any user to make themselves a chat agent"
@@ -446,7 +447,7 @@ msgstr ""
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:143
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:153
 msgid "Chat Window Settings"
-msgstr "Ajustes de la ventana del chat"
+msgstr "Ajustes de la ventana de chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:146
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:156
@@ -544,8 +545,7 @@ msgstr "Notificaciones de chat"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:229
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:246
 msgid "Alert me via email as soon as someone wants to chat"
-msgstr ""
-"Alertarme vía correo electrónico tan pronto como alguien quiera chatear"
+msgstr "Avisarme por correo electrónico tan pronto como alguien quiere chatear"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:230
 msgid "(while online only)"
@@ -598,8 +598,7 @@ msgstr "Dirección de correo electrónico"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:283
 msgid "Email address where offline messages are delivered to"
-msgstr ""
-"Dirección de correo electrónico a la cual se envían los mensajes offline"
+msgstr "Dirección de correo electrónico donde se envían los mensajes offline"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:284
 msgid ""
@@ -697,7 +696,7 @@ msgstr "Texto de la primera sección"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:451
 msgid "Intro Text"
-msgstr "Texto introductorio"
+msgstr "Texto de introducción"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:457
 msgid "Second Section Text"
@@ -705,11 +704,11 @@ msgstr "Texto de la segunda sección"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:464
 msgid "Reactivate Chat Section Text"
-msgstr "Texto de la sección reactivar chat"
+msgstr "Reactivar la sección de texto del Chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:472
 msgid "User chat welcome"
-msgstr "Bienvenida al chat del usuario"
+msgstr "Bienvenida del usuario al chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:481
 msgid "Other text"
@@ -717,7 +716,8 @@ msgstr "Otro texto"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:483
 msgid "This text is shown above the user chat input field"
-msgstr "Este texto se muestra arriba del campo de entrada del usuario del chat"
+msgstr ""
+"Este texto se muestra encima  del campo de entrada del usuario del chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:509
 msgid "Current Users that are Chat Agents"
@@ -772,7 +772,7 @@ msgstr "Sin animación"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:592
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:463
 msgid "Blocked Visitors - Based on IP Address"
-msgstr "Visitantes bloqueados - De acuerdo a la dirección IP"
+msgstr "Visitantes bloqueados - Segun la dirección IP"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/includes/settings_page_pro.php:593
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:466
@@ -820,10 +820,10 @@ msgid ""
 "basic plugin has been updated. This is to ensure a smooth and hassle-free "
 "user experience for both yourself and your visitors."
 msgstr ""
-"El recuadro de chat en vivo de su sitio web ha sido temporalmente "
-"desactivado, hasta que se actualice la versión básica del plugin. Esto es "
-"para asegurar una experiencia de usuario ágil y sin complicaciones, tanto "
-"para usted como para los visitantes."
+"El recuadro de chat de su pagina web ha sido temporalmente desactivado, "
+"hasta que se actualice la versión básica del plugin. Esto es para asegurar "
+"una experiencia de usuario sin problemas y sin complicaciones para usted y "
+"sus visitantes."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:460
 msgid ""
@@ -878,11 +878,11 @@ msgstr "Empezar a chatear"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:381
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:518
 msgid "Start Chat"
-msgstr "Iniciar chat"
+msgstr "Iniciar el Chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:495
 msgid "Connecting. Please be patient..."
-msgstr "Conectando. Por favor, aguarde..."
+msgstr "Conectando. Por favor, espere..."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:496
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:390
@@ -893,19 +893,19 @@ msgstr "Reactivando el chat anterior..."
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:497
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:315
 msgid "Chat offline. Leave a message"
-msgstr "Chat offline. Deje un mensaje"
+msgstr "Chat offline. Dejenos un mensaje"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:498
 msgid "Hello. Please input your details so that I may help you."
-msgstr "¡Hola! Por favor, ingrese sus datos, para poder ayudarlo."
+msgstr "¡Hola!  Por favor, introduzca sus datos para que pueda ayudarle."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:499
 msgid ""
 "We are currently offline. Please leave a message and we'll get back to you "
 "shortly."
 msgstr ""
-"En este momento no estamos en línea. Por favor, deje un mensaje y nos "
-"pondremos en contacto muy pronto."
+"En este momento no estamos en línea. Por favor, deje un mensaje y le "
+"contactaremos en breve."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:500
 msgid "Sending message..."
@@ -913,13 +913,13 @@ msgstr "Enviando mensaje..."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:501
 msgid "Thank you for your message. We will be in contact soon."
-msgstr "Gracias por enviar su mensaje. Nos pondremos en contacto muy pronto."
+msgstr "Gracias por su mensaje. Le contactaremos en breve."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:502
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:529
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:999
 msgid "Press ENTER to send your message"
-msgstr "Presione ENTER para enviar su mensaje"
+msgstr "Presione INTRO para enviar su mensaje"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:503
 msgid "Welcome. How may I help you?"
@@ -960,11 +960,11 @@ msgstr "Ver historial de Chats"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:718
 msgid "Minize Chat Window"
-msgstr "Minimizar ventana de chat"
+msgstr "Minimizar la ventana de chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:719
 msgid "Close Chat Window"
-msgstr "Cerrar ventana de chat"
+msgstr "Cerrar la ventana de chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:804
 msgid "Send message"
@@ -1019,7 +1019,7 @@ msgstr "Finalizar chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:1134
 msgid "Attempting to open the chat window... Please be patient."
-msgstr "Intentando abrir la ventana del chat... Por favor, aguarde."
+msgstr "Intentando abrir la ventana del chat... Por favor, espere."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:1231
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1593
@@ -1062,7 +1062,7 @@ msgstr "Se ha producido un error desconocido"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:1837
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:256
 msgid "Live Chat"
-msgstr "Chat en vivo"
+msgstr "Chat en directo"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support-pro/wp-live-chat-support-pro.php:1838
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:257
@@ -1191,7 +1191,7 @@ msgstr "El usuario está navegando pero no quiere chatear"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/functions.php:671
 msgid "Get Pro Add-on to accept more chats"
-msgstr "Obtenga la versión Pro para aceptar más chats"
+msgstr "Obtenga la versión Pro para poder aceptar más chats"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/functions.php:915
 msgid "You have not missed any chat requests."
@@ -1215,7 +1215,7 @@ msgstr "Su dirección de correo electrónico"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/feedback-page.php:29
 msgid "Your Website"
-msgstr "Su sitio web"
+msgstr "Su pagina web"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/feedback-page.php:48
 msgid "Send Feedback"
@@ -1269,7 +1269,7 @@ msgstr "únicamente"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:66
 msgid " once off. Updates included forever."
-msgstr " en un solo pago. Incluye actualizaciones perpetuas."
+msgstr " en un solo pago. Incluye actualizaciones para siempre."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:303
 msgid "Get offline messages with the "
@@ -1286,7 +1286,7 @@ msgstr "Edite estos campos de texto usando la "
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:343
 msgid "Choose a colour scheme. Only available in the"
-msgstr "Elija un esquema de color. Sólo disponible en la"
+msgstr "Elija una combinación de colores. Sólo disponible en la"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:343
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:434
@@ -1328,11 +1328,11 @@ msgstr "Texto de la segunda sección"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:382
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:521
 msgid "Connecting you to a sales person. Please be patient."
-msgstr "Conectándolo con un representante... Por favor, aguarde."
+msgstr "Conectándole con un vendedor... Por favor, espere."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:388
 msgid "Reactivate chat section text"
-msgstr "Texto de la sección reactivar chat"
+msgstr "Texto de la sección de reactivacion del chat"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/settings_page.php:405
 msgid "Multiple Agents"
@@ -1358,7 +1358,7 @@ msgstr "Elija una animación (sólo en la versión Pro)"
 msgid ""
 "Block visitors from chatting to you based on their IP address using the "
 msgstr ""
-"Bloquee visitantes en sus conversaciones de acuerdo a su dirección IP "
+"Bloquee a visitantes de sus conversaciones según sus direcciónes IP "
 "utilizando la "
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/welcome_page.php:4
@@ -1371,7 +1371,7 @@ msgstr "Versión 4"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/welcome_page.php:8
 msgid "Provide Instant Live Chat Support!"
-msgstr "¡Incluya soporte instantáneo de chat en vivo!"
+msgstr "¡Incluya soporte instantáneo de chat en directo!"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/welcome_page.php:10
 msgid "How did you find us?"
@@ -1407,7 +1407,7 @@ msgstr "Enviar"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/includes/welcome_page.php:49
 msgid "Skip"
-msgstr "Saltear"
+msgstr "Omitir"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:225
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1271
@@ -1433,10 +1433,10 @@ msgid ""
 "Pro plugin has been updated. This is to ensure a smooth and hassle-free user "
 "experience for both yourself and your visitors."
 msgstr ""
-"El recuadro de chat en vivo de su sitio web ha sido temporalmente "
-"desactivado, hasta que se actualice la versión Pro del plugin. Esto es para "
-"asegurar una experiencia de usuario ágil y sin complicaciones, tanto para "
-"usted como para los visitantes."
+"El recuadro de chat de su pagina web ha sido temporalmente desactivado, "
+"hasta que se actualice la versión Pro del plugin. Esto es para asegurar una "
+"experiencia de usuario sin problemas y sin complicaciones para usted y sus "
+"visitantes."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:821
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:839
@@ -1468,7 +1468,8 @@ msgstr "Versión 4.4.8"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:836
 msgid "to take advantage of chat window transitions and colour schemes."
 msgstr ""
-"para usar las transiciones de ventana del chat y los esquemas de color."
+" para usar las transiciones de ventana del chat y las combinaciones de "
+"colores."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:863
 msgid "Experiencing problems with the plugin?"
@@ -1488,7 +1489,7 @@ msgstr "Foro de Soporte."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:894
 msgid "With the Pro add-on of WP Live Chat Support, you can"
-msgstr "Con la versión Pro de WP Live Chat Support puede"
+msgstr "Con la versión Pro de WP Live Chat Support puedes"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:895
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:896
@@ -1497,19 +1498,19 @@ msgstr "ver quién está en línea e iniciar chats"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:897
 msgid "with your online visitors with the click of a button."
-msgstr "con los visitantes de su sitio tan sólo en un clic."
+msgstr "con los visitantes de tu pagina web en un soló  clic."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:898
 msgid "Buy the Pro add-on now for only $19.95 once off. Free Updates FOREVER."
 msgstr ""
 "Compre la versión Pro ahora por un pago único de sólo $19.95. "
-"Actualizaciones gratuitas PERPETUAS."
+"Actualizaciones gratuitas para SIEMPRE."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:900
 msgid "Buy the Pro add-on now for only $19.95 once off. Free Updates Forever."
 msgstr ""
 "Compre la versión Pro ahora por un pago único de sólo $19.95. "
-"Actualizaciones gratuitas perpetuas."
+"Actualizaciones gratuitas para siempre.."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:952
 msgid "Previous"
@@ -1525,7 +1526,7 @@ msgstr "Chat con"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1000
 msgid "Add Quick Responses to your Live Chat"
-msgstr "Añadir respuestas rápidas para su chat en vivo"
+msgstr "Añadir respuestas rápidas para su chat en directo"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1000
 msgid "Pro version only"
@@ -1567,17 +1568,18 @@ msgstr ""
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1491
 msgid "Thank You for your feedback!"
-msgstr "¡Gracias por enviar su mensaje!"
+msgstr "¡Gracias por enviar su comentario!"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1495
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1508
 msgid "Thank you for your feedback. We will be in touch soon"
-msgstr "Gracias por enviar su mensaje. Nos pondremos en contacto muy pronto"
+msgstr "Gracias por enviar su comentario. Le contactaremos en breve."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1511
 msgid "There was a problem sending your feedback. Please log your feedback on "
 msgstr ""
-"Hubo un problema al enviar su mensaje. Por favor, registre su mensaje en "
+"Hubo un problema al enviar su comentario. Por favor, registre su comnetario "
+"en "
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1544
 msgid ""
@@ -1613,7 +1615,7 @@ msgid ""
 "Getting started? Read through some of these articles to help you along your "
 "way."
 msgstr ""
-"¿Recién empieza? Lea algunos de estos artículos para obtener ayuda en el "
+"¿Empezando? Lea algunos de estos artículos para ayudarle durante en el "
 "proceso."
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1568
@@ -1622,7 +1624,7 @@ msgstr "Documentación:"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1570
 msgid "Installing the WP Live Chat Support Pro add-on"
-msgstr "Instalar el complemento WP Live Chat Support Pro"
+msgstr "Instalación del complemento WP Live Chat Support Pro"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1571
 msgid "Running the WP Live Chat Support plugin for the first time (Pro)"
@@ -1630,7 +1632,7 @@ msgstr "Usando el plugin WP Live Chat Support por primera vez (Pro)"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1572
 msgid "Upgrading your licence (Pro)"
-msgstr "Actualizar su licencia (Pro)"
+msgstr "Actualización de su licencia (Pro)"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1573
 msgid "Minimum System Requirements"
@@ -1638,11 +1640,11 @@ msgstr "Requisitos mínimos del sistema"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1575
 msgid "FAQ's:"
-msgstr "FAQ:"
+msgstr "Preguntas frecuentes"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1577
 msgid "How do I check for JavaScript errors on my site?"
-msgstr "¿Cómo puedo comprobar errores de JavaScript en mi sitio?"
+msgstr "¿Cómo puedo comprobar errores de JavaScript en mi  pagina web?"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1578
 msgid "What are Quick Responses?"
@@ -1663,7 +1665,7 @@ msgstr "¿Tiene una aplicación móvil?"
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1582
 msgid "Do I have to be logged into the dashboard to chat with visitors?"
 msgstr ""
-"¿Tengo que iniciar sesión en el Escritorio para chatear con los visitantes?"
+"¿Tengo que estar conectado al Escritorio para chatear con los visitantes?"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1586
 msgid "Troubleshooting"
@@ -1689,7 +1691,7 @@ msgstr "El recuadro del chat no aparece"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1592
 msgid "The chat window disappears when I logout or go offline"
-msgstr "La ventana del chat desaparece cuando cierro sesión o me desconecto"
+msgstr "La ventana del chat desaparece cuando cierro mi sesión o me desconecto"
 
 #: C:\wamp\www\wordpress\wp-content\plugins\wp-live-chat-support/wp-live-chat-support.php:1594
 msgid "Messages only show when I refresh the chat window"

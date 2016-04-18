@@ -1,0 +1,12 @@
+[Wed Apr 06 03:49:16 2016] [error] [client 118.69.29.146] File does not exist: /var/www/html/blog/favicon.ico, referer: http://blog.rinohub.tk/wp-login.php?redirect_to=http%3A%2F%2Fblog.rinohub.tk%2Fwp-admin%2F&reauth=1
+[Wed Apr 06 04:01:10 2016] [error] [client 118.69.29.146] File does not exist: /var/www/html/blog/favicon.ico, referer: http://blog.rinohub.tk/wp-admin/upload.php
+[Wed Apr 06 04:08:35 2016] [error] [client 118.69.29.146] File does not exist: /var/www/html/blog/howto-install-cloud9-ide-locally, referer: http://blog.rinohub.tk/?s=c9
+[Wed Apr 06 04:08:42 2016] [error] [client 118.69.29.146] File does not exist: /var/www/html/blog/howto-install-cloud9-ide-locally, referer: http://blog.rinohub.tk/?s=c9
+[Fri Apr 08 20:29:23 2016] [error] [client 202.168.154.112] request failed: error reading the headers
+[Sun Apr 10 06:26:27 2016] [error] [client 185.106.92.47] File does not exist: /usr/share/phpMyAdmin/scripts
+[Sun Apr 10 21:53:55 2016] [error] [client 141.212.122.129] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /x
+[Fri Apr 15 01:32:07 2016] [error] [client 101.201.147.32] request failed: error reading the headers
+[Fri Apr 15 07:34:46 2016] [error] [client 169.229.3.91] Invalid URI in request \x16<\x18\xbb\xbc\xc7\x14\x8f\x92\xc7\xc3\xb0\xe9\xc3\xe7D]Mu\xb0\xfd\xe5.\xdd\xaf\xee\xc5n\x17'\xda/x0v-\xca\x11\x95\xc1\xb0T\xf1\x1a\xa1Q\x06Z]\xa4lS!\xd7\xe4\xccY\xcb4\v<\x89n
+[Fri Apr 15 22:46:57 2016] [error] [client 144.168.45.117] script not found or unable to stat: /var/www/cgi-bin/test-cgi
+[Sun Apr 17 11:06:02 2016] [error] [client 144.168.45.117] script not found or unable to stat: /var/www/cgi-bin/test-cgi
+[Sun Apr 17 12:56:56 2016] [error] [client 141.212.122.81] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /x

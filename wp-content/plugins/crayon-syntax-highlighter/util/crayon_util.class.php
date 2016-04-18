@@ -334,6 +334,9 @@ EOT;
             return self::$touchscreen;
         }
         if (($devices = self::lines(CRAYON_TOUCH_FILE, 'lw')) !== FALSE) {
+            if (!isset($_SERVER['HTTP_USER_AGENT'])) {
+                return false;
+            }
             // Create array of device strings from file
             $user_agent = strtolower($_SERVER['HTTP_USER_AGENT']);
             self::$touchscreen = (self::strposa($user_agent, $devices) !== FALSE);
@@ -526,7 +529,7 @@ EOT;
     // Returns the current HTTP URL
     public static function current_url() {
         $p = self::isSecure() ? "https://" : "http://";
-        return $p . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI];
+        return $p . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     }
 
     // Removes crayon plugin path from absolute path
@@ -538,7 +541,7 @@ EOT;
     }
 
     // Returns path according to detected use of forwardslash/backslash
-    // Depreciated from regular use after v.1.1.1
+    // Deprecated from regular use after v.1.1.1
     public static function path($path, $detect) {
         $slash = self::detect_slash($detect);
         return str_replace(array('\\', '/'), $slash, $path);
@@ -567,9 +570,18 @@ EOT;
 
     // returns 'true' or 'false' depending on whether this PHP file was served over HTTPS
     public static function isSecure() {
-        return (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || $_SERVER['SERVER_PORT'] == 443;
+        // From https://core.trac.wordpress.org/browser/tags/4.0.1/src/wp-includes/functions.php
+        if ( isset($_SERVER['HTTPS']) ) {
+            if ( 'on' == strtolower($_SERVER['HTTPS']) )
+                return true;
+            if ( '1' == $_SERVER['HTTPS'] )
+                return true;
+        } elseif ( isset($_SERVER['SERVER_PORT']) && ( '443' == $_SERVER['SERVER_PORT'] ) ) {
+            return true;
+        }
+        return false;
     }
-    
+
     public static function startsWith($haystack, $needle) {
         return substr($haystack, 0, strlen($needle)) === $needle;
     }
@@ -649,7 +661,7 @@ EOT;
     public static function version_parts($version) {
         preg_match('#[\d+\.]+#msi', $version, $match);
         if (count($match[0])) {
-            return split('\.', $match[0]);
+            return explode('.', $match[0]);
         } else {
             return array();
         }

@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Image Teleporter
-Plugin URI: http://www.BlueMedicineLabs.com/
+Plugin URI: http://internetmedicineman.github.io/image-teleporter/
 Description: This plugin waves a magic wand and turns images that are hosted elsewhere (like in your Flickr account or on another website) into images that are now in your Media Library. The code on your page is automatically updated so that your site now uses the version of the images that are in your Media Library instead.
-Version: 1.1.6
+Version: 1.1.7
 Author: Blue Medicine Labs
 Author URI: http://www.BlueMedicineLabs.com/
 License: GPL2
